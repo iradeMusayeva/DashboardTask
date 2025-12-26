@@ -41,7 +41,7 @@ export const filterProducts = (products, searchTerm, category) => {
 };
 
 export const formatPrice = (price) => {
-    return `$${parseFloat(price).toFixed(2)}`;
+    return `${parseFloat(price).toFixed(2)}`;
 };
 
 export const truncateText = (text, maxLength = 100) => {
